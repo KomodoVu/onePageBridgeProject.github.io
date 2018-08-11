@@ -1,0 +1,34 @@
+.parallax_pic_wrapper{
+	width: 100vw;
+	height: 160vh;
+	position: relative;
+	z-index: -1;
+}
+.paralax_pic {
+    width: 125vw;
+    height: 170vh;
+	position: relative;
+	right: 15vw;
+	top: 10vh;
+}
+.inside_parallax {
+	width: 70vw;
+	height: 20vh;
+	color: white;
+	position: relative;
+	top: 135vh;
+	left: 15vw;
+	text-align: center;
+}
+.inside_parallax > h1 {
+	font-family: 'Passageway';
+	font-size: 2.5vw;
+	letter-spacing: 0.7vw;
+}
+.inside_parallax > p {
+	font-size: 1.3vw;
+	width: 60vw;
+	position: relative;
+	left: 4vw;
+	top: 1vh;
+}

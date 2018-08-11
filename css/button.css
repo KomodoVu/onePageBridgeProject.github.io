@@ -1,0 +1,27 @@
+.button_prev, .button_next {
+    width: 3.5vw;
+    height:3.5vw;
+    position: absolute;
+    top: 45%;
+    font-size: 2vw;
+    line-height: 3vw;
+    text-align: center;
+    color: white;
+    border-radius: 100%; 
+    border: 2px solid white;
+    font-family: monospace;
+    cursor: pointer;
+    opacity: 0;
+}
+.container_slider:hover > .button_next, .container_slider:hover > .button_prev {
+	opacity: 0.5;
+}
+.button_prev:hover, .button_next:hover{
+	opacity: 1 !important;
+}
+.button_prev {
+    left: 1vw;
+}
+.button_next {
+    right: 1vw;
+}

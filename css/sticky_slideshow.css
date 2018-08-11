@@ -1,0 +1,103 @@
+.sticky_slideshow_overlay{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	opacity: 0.7;
+	position: fixed;
+	top: 0vh;
+	display: none;
+	z-index: 2;
+}
+.slideshow_wrapper{
+	width: 50vw;
+	height: 70vh;
+	position: fixed;
+	top: 15vh;
+	left: 25vw;
+	display: none;
+	z-index: 4;
+}
+.slideshow_pic{
+	width: 50vw;
+	height: 70vh;
+	position: fixed;
+	top: 15vh;
+	left: 25vw;
+}
+.button_next_small, .button_prev_small{
+	width: 25vw;
+	height: 60vh;
+	position: fixed;
+	font-size: 3vw;
+	font-weight: bolder;
+	line-height: 58vh;
+	color: white;
+	cursor: pointer;
+	opacity: 0;
+	display: none;
+	z-index: 4;
+}
+.button_next_small{
+	top: 20vh;
+	left: 50vw;
+	text-align: right;
+}
+.button_prev_small{
+	top: 20vh;
+	left: 25vw;
+	text-align: left;
+}
+.button_prev_tiny{
+	width: 1vw;
+	height: 2.5vh;
+	position: relative;
+	top: 71vh;
+	font-size: 1vw;
+	color: white;
+	cursor: pointer;
+}
+.button_next_tiny{
+	width: 1vw;
+	height: 2.5vh;
+	position: relative;
+	top: 68.5vh;
+	left: 6vw;
+	font-size: 1vw;
+	color: white;
+	cursor: pointer;
+}
+.button_exit{
+	width: 2vw;
+	height: 2.5vh;
+	position: relative;
+	top: 63.5vh;
+	left: 48.5vw;
+	font-size: 0.9vw;
+	color: white;
+	text-align: center;	
+	cursor: pointer;
+}
+.what_slides{
+	font-family: 'Passageway';
+	width: 2vw;
+	height: 2.5vh;
+	position: relative;
+	top: 65.5vh;
+	left: 2.5vw;
+	color: white;
+	text-align: center;
+	font-size: 1vw;
+}
+.loader {
+	border: 5px solid gray;
+  	border-radius: 50%;
+	border-top: 5px solid white;
+	width: 2vw;
+	height: 4vh;
+	animation: spin 1s linear infinite;
+	position: fixed;
+	top: 47vh;
+	left: 050vw;
+	display: none;
+	z-index: 3;
+}
